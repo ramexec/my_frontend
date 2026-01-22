@@ -1,0 +1,33 @@
+.navbar-main{
+    background-color: skyblue;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 0.1fr;
+    border: 5px ridge var(--ridge-color);
+    background: linear-gradient(90deg, rgba(39, 169, 217, 1) 44%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
+}
+
+.navbar-section {
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+
+ /* border: 5px ridge var(--ridge-color) ; */
+}
+
+.navbar-section-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px ridge var(--ridge-color);
+}
+
+.nav{
+   height: 100%;
+}
+
+.nav-marquee{
+    border: 5px ridge var(--ridge-color);
+    height: 80px;
+    overflow: hidden;
+    margin-top: 10px;
+}

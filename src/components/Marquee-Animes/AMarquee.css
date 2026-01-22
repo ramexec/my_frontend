@@ -1,0 +1,13 @@
+.amarquee-main{
+    width: 100%;
+    overflow: hidden;
+}
+
+.amarquee-body{
+    display: flex; 
+}
+
+.amarquee-img{
+    height: 80px;
+}
+

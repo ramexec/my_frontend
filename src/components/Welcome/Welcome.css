@@ -1,0 +1,79 @@
+.welcome-main{
+    background-color: rgb(190, 142, 235);
+    height: 100%;
+    border: 5px ridge var(--ridge-color);
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjdyMnBnZjl2eTF6c252enFvMXByc2ZwY2Njd2V0ZTl4azNmdGc3ZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l378b9LcC3cclsY2A/giphy.gif');
+    background-size: cover;
+}
+
+.welcome-window{
+    margin-top: 10%;
+    height: 50%;
+    border: 4px ridge var(--ridge-color);
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-window-content{
+    font-size: 1.1rem;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+.dialogue-owner {
+    color: black;
+    font-weight: bold;
+}
+.dialogue-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dialogue-image {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-position: center;
+}
+
+.w-chat-box{
+    display: flex;
+    gap: 5px;
+}
+
+.welcome-window-footer{
+    display: flex;
+    align-self: center;
+    width: 100%;
+    justify-content: space-between;
+    border: 5px ridge rgb(6, 221, 221);
+    padding: 5px;
+    background-color: rgba(250, 235, 215, 0.795);
+}
+
+.welcome-window-footer .send{
+    font-family: 'ghibli',sans-serif;
+    height: 100%;
+    width: 8%;
+    padding: 1px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+.cursor {
+  margin-left: 1px;
+  animation: blink-cursor 1s steps(1) infinite;
+}
+
+@keyframes blink-cursor {
+  50% {
+    opacity: 0;
+  }
+}

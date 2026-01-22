@@ -1,0 +1,28 @@
+.footer-main{
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 5px ridge var(--ridge-color);
+    background: linear-gradient(to bottom, #245edb 0%, #3f8cf3 9%, #245edb 18%, #245edb 92%, #333 100%);
+    background-color: #245edb; 
+}
+.footer-content {
+    height: 100%;
+}
+.social-links{
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-links > li {
+    font-family: 'ghibli',sans-serif;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 10px;
+}

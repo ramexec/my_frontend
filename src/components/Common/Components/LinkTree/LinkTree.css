@@ -1,0 +1,61 @@
+.link-tree {
+    background: #27a9d9;
+    background: linear-gradient(90deg, rgba(39, 169, 217, 1) 44%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
+}
+
+
+.folder-label{
+    all:unset;
+    cursor: pointer;
+}
+
+.link-tree-btn {
+  all: unset;           
+  display: block;
+  cursor: pointer;
+
+  font-family: "Courier New", monospace;
+  font-size: 1.2rem;
+  letter-spacing: 0.6px;
+
+  color: #151a16;             
+  padding: 4px 0;
+
+  text-shadow:
+    0 0 2px rgba(51, 255, 102, 0.4);
+
+  transition: color 0.15s linear, text-shadow 0.15s linear;
+}
+
+.link-tree-btn.active {
+  color: #00ff88;
+  text-decoration: underline;
+  text-shadow:
+    0 0 6px rgba(0, 255, 136, 1),
+    0 0 12px rgba(0, 255, 136, 0.8);
+}
+
+.link-tree-file {
+  display: inline-block; 
+  margin-right: 4px;
+}
+
+.link-tree-file.active {
+  display: inline-block; 
+  margin-right: 4px;
+  animation: updown 1.5s ease-in-out infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateX(4px); /* moves up */
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

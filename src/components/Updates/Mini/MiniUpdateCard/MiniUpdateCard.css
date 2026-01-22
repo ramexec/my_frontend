@@ -1,0 +1,50 @@
+.xp-card {
+  background: linear-gradient(
+    to bottom,
+    #f0f0f0 0%,
+    #dcdcdc 100%
+  );
+  border: 2px solid #808080;
+  border-top-color: #ffffff;
+  border-left-color: #ffffff;
+  border-right-color: #404040;
+  border-bottom-color: #404040;
+
+  box-shadow:
+    inset 1px 1px 0 #ffffff,
+    inset -1px -1px 0 #a0a0a0;
+
+  padding: 0;
+  margin: 6px 4px;
+  font-family: Tahoma, "MS Sans Serif", Arial, sans-serif;
+  font-size: 13px;
+  color: #000;
+}
+
+.xp-card-title {
+  background: linear-gradient(
+    to bottom,
+    #316ac5 0%,
+    #1f4ea5 100%
+  );
+  color: white;
+  padding: 4px 8px;
+  font-weight: bold;
+  font-size: 12px;
+  border-bottom: 1px solid #404040;
+}
+
+/* Card content */
+.xp-card-body {
+  padding: 8px;
+  background-color: #c7a3a3;
+  line-height: 1.4;
+}
+
+.xp-card-actions{
+    justify-self: end;
+}
+
+.xp-card-button{
+    padding: 1px 5px;
+}
