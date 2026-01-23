@@ -50,7 +50,7 @@ export const Welcome = () => {
               {text}<span className="cursor">|</span>
             </span>
           </div>
-          <button className="send"><span>Send</span><FaPaperPlane/></button>
+          <button className="send"><span>Send</span><span><FaPaperPlane/></span></button>
         </div>
       </div>   
     </div>

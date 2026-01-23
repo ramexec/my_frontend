@@ -45,6 +45,14 @@
     gap: 5px;
 }
 
+@media (max-width: 800px) {
+    .w-chat-box{
+        flex-flow: wrap;
+        align-items: center;
+        padding: 5px;
+    }
+    
+}
 .welcome-window-footer{
     display: flex;
     align-self: center;
@@ -58,13 +66,17 @@
 .welcome-window-footer .send{
     font-family: 'ghibli',sans-serif;
     height: 100%;
-    width: 8%;
+    width: fit-content;
     padding: 1px ;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
 }
 
 .cursor {
@@ -76,4 +88,11 @@
   50% {
     opacity: 0;
   }
+}
+
+@media (max-width: 800px) {
+    .welcome-window-footer .send{
+       width: fit-content;
+    }
+    
 }
