@@ -11,7 +11,7 @@ export function useFetch(url){
 
     useEffect(() => {
         setLoading(true)
-        axios.get(urlFull)
+        axios.get(urlFull,{headers: {'ngrok-skip-browser-warning': 'true'}})
         .then((res) => {
             setData(res.data);
         })
