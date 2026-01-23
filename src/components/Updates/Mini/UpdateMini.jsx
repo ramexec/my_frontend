@@ -15,7 +15,7 @@ export const UpdateMini = () => {
           <div className="updatemini-content">
             {error && (<div>Something Went Wrong. . .</div>)}
             {loading && (<div>Loading . . .</div>)}
-            {!loading && data?.map((data,index) => (<MiniUpdateCard key={index} subject={data?.subject} text={data?.text}/>))}
+            {!loading && Array.isArray(data) && data?.map((val,index) => (<MiniUpdateCard key={index} subject={val?.subject} text={val?.text}/>))}
           </div>
         </div>
     </div>
