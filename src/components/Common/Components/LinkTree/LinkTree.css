@@ -10,6 +10,7 @@
 }
 
 .link-tree-btn {
+  display: flex;
   all: unset;           
   display: block;
   cursor: pointer;
@@ -36,12 +37,13 @@
 }
 
 .link-tree-file {
-  display: inline-block; 
+  display: flex;
+  flex-direction: row; 
   margin-right: 4px;
+  margin-left: 10px;
 }
 
 .link-tree-file.active {
-  display: inline-block; 
   margin-right: 4px;
   animation: updown 1.5s ease-in-out infinite;
 }

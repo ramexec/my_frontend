@@ -7,6 +7,7 @@ import { Footer } from './components/Footer/Footer'
 import { UpdateMini } from './components/Updates/Mini/UpdateMini'
 import { links } from './components/Common/Components/LinkTree/links'
 import { About } from './components/About/About'
+import { ECommerce } from './components/Projects/ECommerce/ECommerce'
 
 export const LinksContext = createContext();
 
@@ -17,6 +18,7 @@ function App() {
     welcome:  <Welcome />,
     about: <About />,
     contact: <div>Contact Us</div>,
+    project_1: <ECommerce/>
   };
   
   return (

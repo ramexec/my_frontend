@@ -26,8 +26,7 @@
   display: grid;
   grid-template-columns: 1fr 4.5fr 1.5fr;
   font-family: 'ghibli',sans-serif;
-   min-width: 0;
-   min-height: 0;
+  min-height: 0;
 }
 
 .container-body > div {
@@ -36,7 +35,7 @@
 }
 .navbar{
  height: 100%;
-  overflow: hidden;
+
 }
 
 .welcome{
@@ -51,7 +50,7 @@
 
 .main-content{
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .update {

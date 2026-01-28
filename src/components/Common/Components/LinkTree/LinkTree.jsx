@@ -52,7 +52,14 @@ function TreeItem({ item, page, setPage }) {
     <button
       className={`link-tree-btn ${page === item.id ? "active" : ""}`}
       onClick={() => setPage(item.id)}>
-       <span className={`link-tree-file ${page === item.id ? "active" : ""}`}><IoIosArrowForward /></span> {item.label}
+       <span className={`link-tree-file ${page === item.id ? "active" : ""}`}>
+        <div>
+        <IoIosArrowForward />
+        </div>
+        <div>
+        {item.label} 
+        </div>
+        </span>
     </button>
   );
 }
